@@ -1,8 +1,234 @@
-/* ----------------------------------------------------------------
-	Custom CSS
+p {
+  text-align: justify !important;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
------------------------------------------------------------------*/
+@font-face {
+    font-family: MontserratBlack;
+    src: url(css/fonts/Montserrat-Black.woff);
+  }
+  @font-face {
+    font-family: MontserratBold;
+    src: url(css/fonts/Montserrat-Bold.woff);
+  }
+  @font-face {
+    font-family: MontserratMedium;
+    src: url(css/fonts/Montserrat-Medium.woff);
+  }
+  @font-face {
+    font-family: MontserratRegular;
+    src: url(css/fonts/Montserrat-Regular.woff);
+  }
+  @font-face{
+    font-family: Calvera;
+    src: url(../assets/fonts/)
+  }
+  .montbk{
+    font-family: MontserratBlack;
+  }
+  .montb{
+    font-family: MontserratBold;
+  }
+  .montm{
+    font-family: MontserratMedium;
+  }
+  .montr{
+    font-family: MontserratRegular;
+  }
+  
 
+.header-logo-color{
+    background-color: #0E0E0F;
+}
 
+.background-black{
+    background-color: #0E0E0F;
+}
+
+.header-size{
+    height: 150px;
+}
+
+.lunes-dark{
+    background-color: #0E0E0F !important;
+}
+
+.ln-m-0{
+    margin-left: 0px !important;
+}
+
+.ln-bm{
+    margin-bottom: 5px;
+}
+
+.ln-bm-seres{
+  margin-bottom: 10px;
+}
+
+.ln-pt-rules{
+    padding-top: 20px;
+}
+
+.ln-pm-story{
+    padding-top: 0px !important; 
+    margin: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.ln-title{
+    text-transform: uppercase;
+    font-family: MontserratBlack;
+    letter-spacing: 1px;
+}
+
+#ln-story{
+    background-image: url(images/box/story.jpg);
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+#ln-anao{
+  background-image: url(images/seres/anao.jpg);
+  width: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+#ln-besta{
+  background-image: url(images/seres/besta.jpg);
+  width: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+#ln-elfo{
+  background-image: url(images/seres/elfo.jpg);
+  width: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+#ln-gigante{
+  background-image: url(images/seres/gigante.jpg);
+  width: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+#ln-sobrehumano{
+  background-image: url(images/seres/sobrehumano.jpg);
+  width: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+.ln-bg-overlay-seres{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ln-bg-overlay-seres:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ln-plr-12px{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.ln-hover-red:hover{
+  color: #A91314;
+}
+
+.ln-story{
+    color: #0E0E0F;
+    padding-right: 0px;
+}
+
+.ln-pb-story{
+    padding-bottom: 20px !important;
+}
+
+.ln-jtf{
+  text-align: justify !important;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.ln-link-555{
+  color: #555 !important;
+}
+
+.ln-link-555:hover{
+  color: #EBEBEB !important;
+}
+
+.ln-icon{
+  color: #EBEBEB;
+}
+
+.ln-uppercase{
+  text-transform: uppercase !important;
+}
+
+.ln-seres-img{
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ln-ptb-numbers{
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.ln-pt-classes{
+  padding-top: 25px !important;
+}
+
+.ln-pl-0{
+  padding-left: 0px !important;
+}
+
+.ln-pr-0{
+  padding-right: 0px !important;
+}
+
+.ln-pt-0{
+  padding-top: 0px !important;
+}
+
+.ln-pb-0{
+  padding-bottom: 0px !important;
+}
+
+.ln-p-equipe{
+  padding: 2px !important;
+}
+
+.ln-z-2{
+  z-index: 2; 
+  position: relative;
+}
+
+.ln-z-999{
+  z-index: 999; 
+  position: relative;
+}
