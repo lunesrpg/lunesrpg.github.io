@@ -199,6 +199,10 @@ p {
   padding-bottom: 60px !important;
 }
 
+.ln-pt-classes{
+  padding-top: 25px !important;
+}
+
 .ln-pl-0{
   padding-left: 0px !important;
 }
@@ -208,7 +212,7 @@ p {
 }
 
 .ln-pt-0{
-  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 .ln-pb-0{
@@ -219,7 +223,12 @@ p {
   padding: 2px !important;
 }
 
+.ln-z-2{
+  z-index: 2; 
+  position: relative;
+}
+
 .ln-z-999{
-  z-index: 999;
+  z-index: 999; 
   position: relative;
 }
