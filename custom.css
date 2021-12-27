@@ -97,51 +97,6 @@ p {
     padding: 0px;
 }
 
-#ln-anao{
-  background-image: url(images/seres/anao.jpg);
-  width: 50%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-}
-
-#ln-besta{
-  background-image: url(images/seres/besta.jpg);
-  width: 50%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-}
-
-#ln-elfo{
-  background-image: url(images/seres/elfo.jpg);
-  width: 50%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-}
-
-#ln-gigante{
-  background-image: url(images/seres/gigante.jpg);
-  width: 50%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-}
-
-#ln-sobrehumano{
-  background-image: url(images/seres/sobrehumano.jpg);
-  width: 50%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-}
-
 .ln-bg-overlay-seres{
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -320,4 +275,11 @@ a:hover{
 
 .ln-fichasFiltro-4{
   background-color: #A9131440;
+}
+
+.ln-t-magia-atributo{
+  color: rgb(124, 124, 124);
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 4px;
 }
