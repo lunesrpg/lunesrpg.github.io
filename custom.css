@@ -153,6 +153,12 @@ p {
   background-position: center center;
 }
 
+.ln-sis-img{
+  height: 75px;
+  background-size: cover;
+  background-position: center center;
+}
+
 .ln-ptb-numbers{
   padding-top: 60px !important;
   padding-bottom: 60px !important;
