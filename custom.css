@@ -225,6 +225,10 @@ a:hover{
   color: #555;
 }
 
+.ln-t-bold{
+  font-weight: bold;
+}
+
 .ln-t-red-lato{
   color: #A91314;
   font-weight: 800;
