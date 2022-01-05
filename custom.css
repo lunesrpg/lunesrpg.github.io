@@ -301,3 +301,11 @@ a:hover{
   font-size: 12px;
   padding-left: 4px;
 }
+
+.ln-pt-40{
+  padding-top: 40px;
+}
+
+.ln-pb-40{
+  padding-bottom: 40px;
+}
