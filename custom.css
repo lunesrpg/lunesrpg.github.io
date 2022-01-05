@@ -309,3 +309,11 @@ a:hover{
 .ln-pb-40{
   padding-bottom: 40px;
 }
+
+.ln-t-hyphen{
+  text-align: justify !important;
+  -webkit-hyphens: auto !important; 
+  -moz-hyphens: auto !important;
+  -ms-hyphens: auto !important;
+  hyphens: auto !important;
+}
