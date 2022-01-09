@@ -245,13 +245,13 @@
 		</section><!-- #explicacoes e glossario end -->
 
 		<!-- Efeitos de Combate
-			============================================= -->
-			<section id="content">
-				<div class="content-wrap ln-pt-classes">
+		============================================= -->
+		<section id="content">
+				<div class="content-wrap ln-pt-50">
 					<div class="container clearfix">
 						<div class="row">
 	
-							<h3 class="ln-title">Efeitos</h3>
+							<h3 class="ln-title ln-mb-5">Efeitos</h3>
 	
 							<div class="toggle toggle-bg col-lg-6">
 								<div class="toggle-header">
@@ -297,11 +297,27 @@
 						</div>
 					</div>
 				</div>
-				</section><!-- #efeitos de combate end -->
+		</section><!-- #efeitos de combate end -->
+
+		<!-- Pesquisa Magias
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap ln-pt-0">
+				<div class="container clearfix">
+					<div class="row">
+
+						<div>
+							<input  class="ln-pesquisa" id="pesquisamagias" autocomplete="off" onkeyup="pesquisa_magias()" type="text" name="search" placeholder="Filtrar por classe, subclasse ou magia.">
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section><!-- #pesquisa itens end -->
 
 		<!-- Atirador Magias
 		============================================= -->
-		<div id="atiradorclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/atirador.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="atiradorclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/atirador.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -347,7 +363,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -383,7 +399,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -415,7 +431,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -460,7 +476,7 @@
 
 		<!-- Campeão Magias
 		============================================= -->
-		<div id="campeaoclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/campeao.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="campeaoclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/campeao.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -469,7 +485,7 @@
 
 								<h3 class="ln-title" >Campeão</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -505,7 +521,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -540,7 +556,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -576,7 +592,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -618,7 +634,7 @@
 
 		<!-- Elementista Magias
 		============================================= -->
-		<div id="elementistaclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/elementista.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="elementistaclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/elementista.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -627,7 +643,7 @@
 
 								<h3 class="ln-title" >Elementista</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -666,7 +682,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -700,7 +716,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -742,7 +758,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -787,7 +803,7 @@
 
 		<!-- Guerreiro Magias
 		============================================= -->
-		<div id="guerreiroclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/guerreiro.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="guerreiroclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/guerreiro.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -796,7 +812,7 @@
 
 								<h3 class="ln-title" >Guerreiro</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -830,7 +846,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -864,7 +880,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -902,7 +918,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -950,7 +966,7 @@
 
 		<!-- Ladino Magias
 		============================================= -->
-		<div id="ladinoclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/ladino.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="ladinoclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/ladino.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -959,7 +975,7 @@
 
 								<h3 class="ln-title" >Ladino</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -993,7 +1009,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1026,7 +1042,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1060,7 +1076,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1099,7 +1115,7 @@
 
 		<!-- Menestrel Magias
 		============================================= -->
-		<div id="menestrelclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/menestrel.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="menestrelclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/menestrel.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -1108,7 +1124,7 @@
 
 								<h3 class="ln-title" >Menestrel</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1146,7 +1162,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1182,7 +1198,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1220,7 +1236,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1267,7 +1283,7 @@
 
 		<!-- Necromante Magias
 		============================================= -->
-		<div id="necromanteclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/necromante.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="necromanteclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/necromante.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -1276,7 +1292,7 @@
 
 								<h3 class="ln-title" >Necromante</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1306,7 +1322,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1336,7 +1352,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1369,7 +1385,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1408,7 +1424,7 @@
 
 		<!-- Protetor Magias
 		============================================= -->
-		<div id="protetorclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/protetor.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="protetorclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/protetor.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -1417,7 +1433,7 @@
 
 								<h3 class="ln-title" >Protetor</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1444,7 +1460,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1481,7 +1497,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1518,7 +1534,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1562,7 +1578,7 @@
 
 		<!-- Selvagem Magias
 		============================================= -->
-		<div id="selvagemclasse" class="section parallax dark m-0 ln-bg-magias" style="background-image: url('images/classes/selvagem.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
+		<div id="selvagemclasse" class="section parallax dark m-0 ln-bg-magias ln-magias-pesquisa" style="background-image: url('images/classes/selvagem.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"><div class="mask" style="background-color: rgba(1, 1, 1, 0.8)"></div>
 			<div class="text-center">
 				<section id="content ln-att-bg">
 					<div class="content-wrap ln-pt-rules p-5 ">
@@ -1571,7 +1587,7 @@
 
 								<h3 class="ln-title" >Selvagem</h3>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1601,7 +1617,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1631,7 +1647,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1661,7 +1677,7 @@
 									</div>
 								</div>
 
-								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12">
+								<div class="toggle toggle-bg col-lg-6 col-md-6 col-12 ">
 									<div class="toggle-header">
 										<div class="toggle-icon">
 											<i class="toggle-closed icon-folder"></i>
@@ -1729,6 +1745,8 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
+	<script src="js/extras/pesquisamagias.js"></script>
+	<script src="js/extras/pesquisaclasses.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->

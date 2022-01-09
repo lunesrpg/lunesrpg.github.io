@@ -317,3 +317,39 @@ a:hover{
   -ms-hyphens: auto !important;
   hyphens: auto !important;
 }
+
+.ln-pesquisa{
+  font-family: MontserratBold;
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #EBEBEB;
+  border: #EBEBEB;
+  border-radius: 2;
+  text-align: center;
+  color: #A91314;
+}
+
+.ln-pesquisa::placeholder{
+  color: #A9131499;
+}
+
+.ln-pesquisa:hover::placeholder {
+  color: #EBEBEB;
+}
+
+.ln-pesquisa:hover{
+  background-color: #A91314;
+  color: #EBEBEB !important;
+}
+
+.ln-pt-50{
+  padding-top: 50px;
+}
+
+.ln-pb-30{
+  padding-bottom: 30px;
+}
+
+.ln-mb-5{
+  margin-bottom: 5px;
+}
