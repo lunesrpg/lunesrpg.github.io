@@ -140,6 +140,11 @@ p {
   padding-right: 12px;
 }
 
+.ln-margem-templarios{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 .ln-hover-red:hover{
   color: #A91314;
 }
